@@ -1,6 +1,6 @@
 import os
 import datetime
-from github import Github # Ensure you have PyGithub installed: pip install PyGithub
+from github import Github # Ensure you have PyGithub installed: pip install PyGithub, path updated
 
 # Get GitHub token from environment variable
 GITHUB_TOKEN = os.environ["GH_TOKEN"]
